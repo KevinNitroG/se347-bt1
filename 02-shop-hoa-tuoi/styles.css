@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "UTM Wedding K&T";
+  src: url("fonts/utm-wedding-kt.ttf") format("truetype");
+}
+
+html {
+  min-height: 100%;
+  background: #fff url("images/nen-hoa-hong.jpg") no-repeat right bottom;
+}
+
+body {
+  margin: 0;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+.title {
+  margin: 30px 0 20px;
+  text-align: center;
+  font-family: "UTM Wedding K&T", cursive;
+  font-size: 48px;
+  font-weight: normal;
+  color: #fff;
+  text-shadow: 0 0 4px #ff0099, 0 0 8px #ff0099, 0 0 12px #ff66cc;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.vase {
+  width: 355px;
+  flex-shrink: 0;
+}
+
+.content {
+  padding-left: 0;
+}
+
+.sections {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.15;
+}
+
+.heading {
+  padding: 0 2px;
+  background: #e6007e;
+  color: #fff;
+  font-weight: bold;
+}
+
+.list-intro,
+.list-contact {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.list-intro li {
+  list-style-image: url("images/bullet-hoa-tim.png");
+}
+
+.list-contact li {
+  list-style-image: url("images/bullet-tron-hong.png");
+}
+
+.sections hr {
+  width: 420px;
+  margin: 6px 0 8px -20px;
+  border: 0;
+  border-top: 1px solid #808080;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  font-style: italic;
+  color: #555;
+}
+
+.copyright span {
+  color: #e6007e;
+}
